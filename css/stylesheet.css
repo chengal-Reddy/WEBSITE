@@ -1,0 +1,28 @@
+{ margin: 0;
+  padding: 0;
+ }
+header {
+    background-image: url(../veltechoverview.jpg.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none ;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+    transition: 0.65 ease;
+}
+ui li a:hover{
+    background-color: black;
+    color: #000;
+}
